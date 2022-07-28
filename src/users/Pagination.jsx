@@ -8,7 +8,7 @@ const Pagination = ({
   totalItems,
 }) => {
   const startPage = 0;
-  const endPage = Math.ceil(totalItems / 3) - 1;
+  const endPage = Math.ceil(totalItems / 3);
 
   let isPrevPageAvailable;
   currentPage === startPage
